@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
+
+button,
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* typography class*/
+
+.font-baloo {
+  font-family: "baloo Thambi 2", cursive;
+}
+
+.font-raleway {
+  font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+/* color template*/
+
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-second {
+  color: #00a5c4;
+}
+
+.color-second-bg {
+  background-color: #00a5c4;
+}
+
+.color-yellow {
+  color: #ffd289;
+}
+
+.color-yellow-bg {
+  background: #ffd289;
+}
+
+#top-sale .owl-carousel .item .product a,
+#new_phones .owl-carousel .item .product a {
+  overflow: hidden;
+}
+
+#top-sale .owl-carousel .item .product img,
+#new_phones .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+
+#top-sale .owl-carousel .item .product img:hover,
+#new_phones .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+
+#top-sale .owl-carousel .owl-nav button,
+#new_phones .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-prev,
+#new_phones .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-next span,
+#top-sale .owl-carousel .owl-nav button.owl-prev span,
+#new_phones .owl-carousel .owl-nav button.owl-next span,
+#new_phones .owl-carousel .owl-nav button.owl-prev span {
+  font-size: 35px;
+  color: #003859;
+  padding: 0 1rem;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-prev span,
+#new_phones .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-next,
+#new_phones .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-next span,
+#new_phones .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+#banner-area {
+  height: 50vh;
+}
+
+.item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.locationMap {
+  width: 100%;
+  height: 80vh;
+  margin-top: 100px;
+  margin-bottom: 125px;
+  text-align: center;
+}
+.question {
+  padding: 1rem 1.5rem;
+  border: 2px solid #eae6eb;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.question h4 {
+  text-transform: none;
+  line-height: 1.5;
+}
+.question p {
+  color: hsl(209, 34%, 30%);
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+}
+.question header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.question header h4 {
+  margin-bottom: 0;
+}
+.about-img {
+  border-radius: 60px 0px 60px 0px;
+}
+.text-about {
+  border-radius: 0px 50px 0px 50px;
+}
+
+.log-text {
+  position: absolute;
+  top: 42%;
+  left: 38%;
+  color: white;
+}
+.login-img {
+  position: relative;
+  margin: 0px;
+  width: 100%;
+  background-color: rgba(240, 248, 255, 0.24);
+  z-index: 1;
+}
+.more-log {
+  position: absolute;
+  top: 20%;
+  left: 32%;
+  background-color: rgba(255, 255, 255, 0.103);
+  z-index: 2;
+
+  width: 30vw;
+
+  color: rgb(238, 229, 229);
+  padding: 10px;
+  border-radius: 0px 30px 0px 30px;
+}
+.col-form-label {
+  font-weight: 600;
+}
+.brand-title {
+  position: absolute;
+  top: 2%;
+  left: 4%;
+  z-index: 5;
+  font-size: 40px;
+  font-family: "baloo Thambi 2", cursive;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.733);
+}
+.brand-title span {
+  font-size: 55px;
+  font-weight: 600;
+  color: #003859c2;
+  font-family: "Raleway", cursive;
+}
+.brand-titl {
+  font-size: 40px;
+  font-family: "baloo Thambi 2", cursive;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.733);
+}
+.brand-titl span {
+  color: #003859c2;
+  font-family: "baloo Thambi 2", cursive;
+}
+
+.cart .product img:hover {
+    opacity: 0.8;
+}
+
+.cla-cart .row img:hover{
+
+  opacity: 0.8;
+ 
+}
